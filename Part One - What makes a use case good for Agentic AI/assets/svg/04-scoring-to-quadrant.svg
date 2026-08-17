@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 830" width="1200" height="830" role="img" aria-labelledby="t d">
+<title id="t">How the scoring sheet turns criteria into a quadrant</title><desc id="d">Value inputs and effort inputs are scored one to five, weighted and summed, then a single rule places each use case in one of the four quadrants automatically.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="830.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART ONE - FIGURE 4</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">How the sheet turns judgement into a quadrant</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Score each input 1-5. The sheet weights them, sums them and places the use case for you, so the argument is about scores, not about placement.</text>
+<rect x="56.0" y="214.0" width="512.0" height="268.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="214.0" width="512.0" height="4.0" rx="2" fill="#4f45dc"/>
+<text x="80.0" y="252.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.4">INPUTS TO VALUE</text>
+<text x="80.0" y="280.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Value score</text>
+<text x="80.0" y="318.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Annual hours or cost released</text>
+<rect x="490.0" y="303.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="517.0" y="318.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#4f45dc" text-anchor="middle" letter-spacing="0">x 3</text>
+<line x1="80.0" y1="334.0" x2="544.0" y2="334.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="358.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Volume of the process</text>
+<rect x="490.0" y="343.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="517.0" y="358.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#4f45dc" text-anchor="middle" letter-spacing="0">x 2</text>
+<line x1="80.0" y1="374.0" x2="544.0" y2="374.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="398.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Strategic pull from the exec buyer</text>
+<rect x="490.0" y="383.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="517.0" y="398.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#4f45dc" text-anchor="middle" letter-spacing="0">x 2</text>
+<line x1="80.0" y1="414.0" x2="544.0" y2="414.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Quality or risk upside</text>
+<rect x="490.0" y="423.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="517.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#4f45dc" text-anchor="middle" letter-spacing="0">x 1</text>
+<rect x="632.0" y="214.0" width="512.0" height="268.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="632.0" y="214.0" width="512.0" height="4.0" rx="2" fill="#6e6fff"/>
+<text x="656.0" y="252.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#6e6fff" text-anchor="start" letter-spacing="1.4">INPUTS TO EFFORT</text>
+<text x="656.0" y="280.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Effort score</text>
+<text x="656.0" y="318.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Process documentation maturity</text>
+<rect x="1066.0" y="303.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="1093.0" y="318.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#6e6fff" text-anchor="middle" letter-spacing="0">x 3</text>
+<line x1="656.0" y1="334.0" x2="1120.0" y2="334.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="656.0" y="358.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">System access and integration count</text>
+<rect x="1066.0" y="343.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="1093.0" y="358.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#6e6fff" text-anchor="middle" letter-spacing="0">x 3</text>
+<line x1="656.0" y1="374.0" x2="1120.0" y2="374.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="656.0" y="398.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Knowledge and data readiness</text>
+<rect x="1066.0" y="383.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="1093.0" y="398.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#6e6fff" text-anchor="middle" letter-spacing="0">x 2</text>
+<line x1="656.0" y1="414.0" x2="1120.0" y2="414.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="656.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Owner availability</text>
+<rect x="1066.0" y="423.0" width="54.0" height="22.0" rx="6" fill="#eef2ff"/>
+<text x="1093.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#6e6fff" text-anchor="middle" letter-spacing="0">x 1</text>
+<line x1="312.0" y1="494.0" x2="570.0" y2="544.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="888.0" y1="494.0" x2="630.0" y2="544.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="200.0" y="560.0" width="800.0" height="116.0" rx="12" fill="#dde4ff"/>
+<rect x="200.0" y="560.0" width="4.0" height="116.0" rx="2" fill="#4f45dc"/>
+<text x="224.0" y="592.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.4">THE ONE RULE THE SHEET APPLIES</text>
+<text x="224.0" y="622.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Value &gt;= midpoint  AND  Effort &lt;= midpoint</text>
+<text x="224.0" y="652.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Everything else falls out of the same comparison. No one places their own use case by hand.</text>
+<text x="56.0" y="712.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.4">WHERE IT LANDS</text>
+<rect x="56.0" y="730.0" width="254.0" height="76.0" rx="10" fill="#dde4ff"/>
+<rect x="56.0" y="730.0" width="4.0" height="76.0" rx="2" fill="#4f45dc"/>
+<text x="74.0" y="762.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Build first</text>
+<text x="74.0" y="785.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">high value, low effort</text>
+<rect x="328.0" y="730.0" width="254.0" height="76.0" rx="10" fill="#e5ebff"/>
+<rect x="328.0" y="730.0" width="4.0" height="76.0" rx="2" fill="#6e6fff"/>
+<text x="346.0" y="762.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Sequence later</text>
+<text x="346.0" y="785.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">high value, high effort</text>
+<rect x="600.0" y="730.0" width="254.0" height="76.0" rx="10" fill="#eef2ff"/>
+<rect x="600.0" y="730.0" width="4.0" height="76.0" rx="2" fill="#949eff"/>
+<text x="618.0" y="762.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Fill capacity</text>
+<text x="618.0" y="785.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">low value, low effort</text>
+<rect x="872.0" y="730.0" width="254.0" height="76.0" rx="10" fill="#ebedef"/>
+<rect x="872.0" y="730.0" width="4.0" height="76.0" rx="2" fill="#777a82"/>
+<text x="890.0" y="762.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Decline</text>
+<text x="890.0" y="785.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">low value, high effort</text>
+</svg>

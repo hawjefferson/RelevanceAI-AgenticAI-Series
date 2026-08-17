@@ -30,7 +30,7 @@ No prior agent-building experience is assumed. Later parts get progressively mor
 
 | # | Part | What it covers | Status |
 |---|---|---|---|
-| 1 | [What makes a use case good for Agentic AI](./Part%20One%20-%20What%20makes%20a%20use%20case%20good%20for%20Agentic%20AI/) | Choosing the right first use case — and recognising the ones that shouldn't be agentic at all | 🚧 In progress |
+| 1 | [What makes a use case good for Agentic AI](./Part%20One%20-%20What%20makes%20a%20use%20case%20good%20for%20Agentic%20AI/) | Choosing the right first use case — and recognising the ones that shouldn't be agentic at all. Includes a [scoring sheet](./Part%20One%20-%20What%20makes%20a%20use%20case%20good%20for%20Agentic%20AI/build/use-case-scoring-sheet.xlsx). | ✅ Written |
 | 2 | [Building AI Agents within Relevance AI](./Part%20Two%20-%20Building%20AI%20Agents%20within%20Relevance%20AI/) | Taking a chosen use case and building the agent: tools, prompts, knowledge, running it | 📋 Planned |
 | 3 | [Fine Tuning & Iterating AI agents](./Part%20Three%20-%20Fine%20Tuning%20&%20Iterating%20AI%20agents/) | Making a working agent reliable — evaluating, debugging and improving it over time | 📋 Planned |
 
@@ -46,8 +46,9 @@ Every part folder follows the same shape:
 ```
 Part <Number> - <Readable Title>/
 ├── README.md      ← the article; renders automatically when you open the folder on GitHub
-├── assets/        ← images, diagrams and screenshots referenced by the article
-└── build/         ← exported Relevance AI tools, agents and workforces (JSON) to import
+├── linkedin.md    ← the same article reshaped for the LinkedIn article editor
+├── assets/        ← figures referenced by the article (PNG for portability, SVG sources)
+└── build/         ← exported Relevance AI tools and agents, and any companion assets
 ```
 
 To follow along with a part: read its `README.md`, then import anything in `build/` into your own Relevance AI project.

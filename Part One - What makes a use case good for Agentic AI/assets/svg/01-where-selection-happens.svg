@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-labelledby="t d">
+<title id="t">Where agentic use case selection actually happens</title><desc id="d">A five-stage timeline from presales to build. Presales produces a direction; ideation and pressure-testing after kickoff produce the committed use cases.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="600.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART ONE - FIGURE 1</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Where use case selection actually happens</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Presales gives you a direction. The decision gets made after kickoff, with the champion and the executive buyer in the room.</text>
+<text x="56.0" y="200.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">PRESALES</text>
+<line x1="56.0" y1="208.0" x2="246.0" y2="208.0" stroke="#e1e0d9" stroke-width="2" stroke-linecap="round"/>
+<text x="280.5" y="200.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">IMPLEMENTATION</text>
+<line x1="280.5" y1="208.0" x2="1144.0" y2="208.0" stroke="#e1e0d9" stroke-width="2" stroke-linecap="round"/>
+<rect x="56.0" y="232.0" width="190.0" height="196.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="232.0" width="4.0" height="196.0" rx="2" fill="#c3c2b7"/>
+<text x="74.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1">01</text>
+<text x="74.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Presales</text>
+<text x="74.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Candidate use cases</text>
+<text x="74.0" y="338.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">surfaced while the deal</text>
+<text x="74.0" y="356.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">is being won.</text>
+<line x1="74.0" y1="366.0" x2="228.0" y2="366.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="74.0" y="386.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">WHO</text>
+<text x="74.0" y="401.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">AE + solutions engineer</text>
+<text x="74.0" y="454.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">OUTPUT</text>
+<text x="74.0" y="470.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">A direction</text>
+<line x1="252.0" y1="330.0" x2="274.5" y2="330.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="280.5" y="232.0" width="190.0" height="196.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="280.5" y="232.0" width="4.0" height="196.0" rx="2" fill="#c3c2b7"/>
+<text x="298.5" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1">02</text>
+<text x="298.5" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Kickoff</text>
+<text x="298.5" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Champion and executive</text>
+<text x="298.5" y="338.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">buyer aligned on what</text>
+<text x="298.5" y="356.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">success means.</text>
+<line x1="298.5" y1="366.0" x2="452.5" y2="366.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="298.5" y="386.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">WHO</text>
+<text x="298.5" y="401.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Champion + exec buyer</text>
+<text x="298.5" y="454.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">OUTPUT</text>
+<text x="298.5" y="470.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Shared definition of done</text>
+<line x1="476.5" y1="330.0" x2="499.0" y2="330.0" stroke="#5f56ff" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="476.5" y1="330.0" x2="499.0" y2="330.0" stroke="#5f56ff" stroke-width="2" stroke-linecap="round" marker-end="url(#ahA)"/>
+<rect x="505.0" y="232.0" width="190.0" height="196.0" rx="12" fill="#dde4ff"/>
+<rect x="505.0" y="232.0" width="4.0" height="196.0" rx="2" fill="#4f45dc"/>
+<text x="523.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1">03</text>
+<text x="523.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Ideation</text>
+<text x="523.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Widen the list before you</text>
+<text x="523.0" y="338.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">narrow it. Score every</text>
+<text x="523.0" y="356.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">candidate.</text>
+<line x1="523.0" y1="366.0" x2="677.0" y2="366.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="523.0" y="386.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">WHO</text>
+<text x="523.0" y="401.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Champion + team leads</text>
+<text x="523.0" y="454.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">OUTPUT</text>
+<text x="523.0" y="470.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">A scored long list</text>
+<line x1="701.0" y1="330.0" x2="723.5" y2="330.0" stroke="#5f56ff" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="701.0" y1="330.0" x2="723.5" y2="330.0" stroke="#5f56ff" stroke-width="2" stroke-linecap="round" marker-end="url(#ahA)"/>
+<rect x="729.5" y="232.0" width="190.0" height="196.0" rx="12" fill="#dde4ff"/>
+<rect x="729.5" y="232.0" width="4.0" height="196.0" rx="2" fill="#4f45dc"/>
+<text x="747.5" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1">04</text>
+<text x="747.5" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Pressure-test</text>
+<text x="747.5" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Challenge feasibility and</text>
+<text x="747.5" y="338.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">value. Kill what does not</text>
+<text x="747.5" y="356.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">hold up.</text>
+<line x1="747.5" y1="366.0" x2="901.5" y2="366.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="747.5" y="386.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">WHO</text>
+<text x="747.5" y="401.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Exec buyer + delivery</text>
+<text x="747.5" y="454.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">OUTPUT</text>
+<text x="747.5" y="470.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">1-2 committed use cases</text>
+<line x1="925.5" y1="330.0" x2="948.0" y2="330.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="954.0" y="232.0" width="190.0" height="196.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="954.0" y="232.0" width="4.0" height="196.0" rx="2" fill="#c3c2b7"/>
+<text x="972.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1">05</text>
+<text x="972.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Build</text>
+<text x="972.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Implementation planning</text>
+<text x="972.0" y="338.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">against a locked scope.</text>
+<line x1="972.0" y1="366.0" x2="1126.0" y2="366.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="972.0" y="386.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">WHO</text>
+<text x="972.0" y="401.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Delivery + technical owner</text>
+<text x="972.0" y="454.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.1">OUTPUT</text>
+<text x="972.0" y="470.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">A plan with dates</text>
+<rect x="56.0" y="506.0" width="1088.0" height="52.0" rx="10" fill="#eef2ff"/>
+<rect x="56.0" y="506.0" width="4.0" height="52.0" rx="2" fill="#5f56ff"/>
+<text x="76.0" y="538.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Stages 03 and 04 are the ones teams skip. Skipping them is how a presales slide becomes a six-month build nobody sponsors.</text>
+</svg>

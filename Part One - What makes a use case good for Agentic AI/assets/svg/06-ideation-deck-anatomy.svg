@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-labelledby="t d">
+<title id="t">Anatomy of a modular use case ideation deck</title><desc id="d">A deck split into a fixed core, an audience-swappable middle, and an appendix of rarer team-specific use cases, with audience variants listed underneath.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="760.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART ONE - FIGURE 6</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">The ideation deck is modular on purpose</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">One deck, three layers: a core that never changes, a middle swapped for the audience in the room, and a long tail that lives in an appendix.</text>
+<rect x="56.0" y="212.0" width="358.0" height="340.0" rx="12" fill="#dde4ff"/>
+<rect x="56" y="212" width="358" height="340" rx="12" fill="none" stroke="#4f45dc" stroke-width="2.5"/>
+<rect x="56.0" y="212.0" width="4.0" height="340.0" rx="2" fill="#4f45dc"/>
+<text x="78.0" y="248.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.4">ALWAYS IN</text>
+<text x="78.0" y="276.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">The core</text>
+<circle cx="84" cy="304.0" r="3" fill="#4f45dc"/>
+<text x="98.0" y="308.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">The agent menu - what agents can actually</text>
+<text x="98.0" y="327.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">do</text>
+<circle cx="84" cy="351.0" r="3" fill="#4f45dc"/>
+<text x="98.0" y="355.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">How we score and prioritise use cases</text>
+<circle cx="84" cy="379.0" r="3" fill="#4f45dc"/>
+<text x="98.0" y="383.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Two ROI spotlights with real numbers</text>
+<line x1="78.0" y1="468.0" x2="392.0" y2="468.0" stroke="#c3c2b7" stroke-width="1" stroke-linecap="round"/>
+<text x="78.0" y="490.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Sets the frame. Cutting any of this is why ideation</text>
+<text x="78.0" y="507.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">sessions drift.</text>
+<rect x="441.0" y="212.0" width="358.0" height="340.0" rx="12" fill="#eef2ff"/>
+<rect x="441.0" y="212.0" width="4.0" height="340.0" rx="2" fill="#6e6fff"/>
+<text x="463.0" y="248.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#6e6fff" text-anchor="start" letter-spacing="1.4">SWAP FOR THE ROOM</text>
+<text x="463.0" y="276.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Worked examples by team</text>
+<circle cx="469" cy="304.0" r="3" fill="#6e6fff"/>
+<text x="483.0" y="308.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Sales pack</text>
+<circle cx="469" cy="332.0" r="3" fill="#6e6fff"/>
+<text x="483.0" y="336.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Marketing pack</text>
+<circle cx="469" cy="360.0" r="3" fill="#6e6fff"/>
+<text x="483.0" y="364.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Customer success pack</text>
+<circle cx="469" cy="388.0" r="3" fill="#6e6fff"/>
+<text x="483.0" y="392.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Operations pack</text>
+<circle cx="469" cy="416.0" r="3" fill="#6e6fff"/>
+<text x="483.0" y="420.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Finance pack</text>
+<line x1="463.0" y1="468.0" x2="777.0" y2="468.0" stroke="#c3c2b7" stroke-width="1" stroke-linecap="round"/>
+<text x="463.0" y="490.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Bring one pack. Leaving the sales examples in front</text>
+<text x="463.0" y="507.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">of a marketing audience is the fastest way to lose the</text>
+<text x="463.0" y="525.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">room.</text>
+<rect x="826.0" y="212.0" width="358.0" height="340.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="826.0" y="212.0" width="4.0" height="340.0" rx="2" fill="#777a82"/>
+<text x="848.0" y="248.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#777a82" text-anchor="start" letter-spacing="1.4">ON REQUEST</text>
+<text x="848.0" y="276.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Appendix: the long tail</text>
+<circle cx="854" cy="304.0" r="3" fill="#777a82"/>
+<text x="868.0" y="308.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Rarer team-specific use cases</text>
+<circle cx="854" cy="332.0" r="3" fill="#777a82"/>
+<text x="868.0" y="336.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Edge cases people ask about</text>
+<circle cx="854" cy="360.0" r="3" fill="#777a82"/>
+<text x="868.0" y="364.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Things we have seen fail, and why</text>
+<line x1="848.0" y1="468.0" x2="1162.0" y2="468.0" stroke="#c3c2b7" stroke-width="1" stroke-linecap="round"/>
+<text x="848.0" y="490.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Never presented linearly. It exists so you can answer</text>
+<text x="848.0" y="507.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">"what about us?" with a slide instead of a promise.</text>
+<text x="56.0" y="604.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.4">TAILOR BEFORE YOU SEND, NOT DURING THE CALL</text>
+<line x1="56.0" y1="618.0" x2="1144.0" y2="618.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<rect x="56" y="638" width="183.9" height="24" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="638.0" width="183.9" height="24.0" rx="12" fill="#ffffff"/>
+<text x="65.0" y="654.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">1.  Ask who is in the room</text>
+<text x="245.9" y="655.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#898781" text-anchor="start" letter-spacing="0">→</text>
+<rect x="265.90912000000003" y="638" width="257.8" height="24" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="265.9" y="638.0" width="257.8" height="24.0" rx="12" fill="#ffffff"/>
+<text x="274.9" y="654.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">2.  Delete the packs that do not apply</text>
+<text x="529.8" y="655.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#898781" text-anchor="start" letter-spacing="0">→</text>
+<rect x="549.7560000000001" y="638" width="263.9" height="24" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="549.8" y="638.0" width="263.9" height="24.0" rx="12" fill="#ffffff"/>
+<text x="558.8" y="654.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">3.  Reorder so their team is slide three</text>
+<text x="819.6" y="655.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#898781" text-anchor="start" letter-spacing="0">→</text>
+<rect x="839.6140800000001" y="638" width="228.4" height="24" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="839.6" y="638.0" width="228.4" height="24.0" rx="12" fill="#ffffff"/>
+<text x="848.6" y="654.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">4.  Move the rest to the appendix</text>
+<rect x="56.0" y="696.0" width="1088.0" height="52.0" rx="10" fill="#eef2ff"/>
+<rect x="56.0" y="696.0" width="4.0" height="52.0" rx="2" fill="#5f56ff"/>
+<text x="76.0" y="728.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">The same deck works earlier in the cycle. Nothing in the core assumes a signed contract.</text>
+</svg>

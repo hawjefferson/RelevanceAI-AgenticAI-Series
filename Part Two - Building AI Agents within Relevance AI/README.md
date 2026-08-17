@@ -43,9 +43,11 @@
 
 Everything needed to reproduce this part is in [`build/`](./build/).
 
-| File | What it is | How to use it |
-|---|---|---|
-| — | — | — |
+- **`build/<name>.json`** — <tool / agent / workforce>. Import it into your Relevance AI
+  project, then <what to do next>.
+
+<!-- No Markdown tables in the article body: LinkedIn's editor cannot render them.
+     Bold-led bullets read the same on GitHub and paste cleanly into LinkedIn. -->
 
 **Prerequisites for this part**
 

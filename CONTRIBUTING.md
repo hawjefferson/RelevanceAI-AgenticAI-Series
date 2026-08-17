@@ -23,19 +23,39 @@ This repo is a **series**, so consistency between parts matters more than it wou
 ```
 Part <Number> - <Readable Title>/
 ├── README.md      ← the article
-├── assets/        ← images, diagrams, screenshots
-└── build/         ← exported Relevance AI tools, agents, workforces
+├── linkedin.md    ← the same article, reshaped for the LinkedIn article editor
+├── assets/        ← figures, diagrams, screenshots (PNG + SVG sources)
+└── build/         ← exported Relevance AI tools, agents, workforces, companion assets
 ```
 
 Keep `assets/README.md` and `build/README.md` in place — they document the local conventions for anyone browsing the folder.
 
 ---
 
+## Every part is dual-purpose
+
+Each article is written to work in two places: as the folder's `README.md` on GitHub, and as a
+LinkedIn article. That shapes a few choices.
+
+- **Keep Markdown tables out of the article body.** LinkedIn's editor cannot render them. Use
+  bold-led bullets instead, and put genuinely tabular material in a figure.
+- **Reference PNGs, not SVGs, from the article.** LinkedIn does not render SVG, so referencing
+  the PNG means what a reader sees on GitHub is exactly what gets uploaded to LinkedIn.
+- **`linkedin.md` carries the LinkedIn cut**: `[IMAGE n]` markers with the alt text to paste in,
+  a punchier opening, no repo-specific sections, and publishing notes (title options, hashtags,
+  cover image) at the bottom to be deleted before posting.
+
 ## Assets
 
-- Lowercase, hyphenated filenames; step-number prefix when order matters (`01-create-tool.png`).
-- PNG for screenshots, SVG for diagrams.
-- Crop to the relevant UI. Keep files under ~500 KB.
+- Lowercase, hyphenated filenames; number prefix when order matters (`01-create-tool.png`).
+- Screenshots as PNG. Diagrams authored as SVG and committed **with their PNG export** — keep
+  the generator script beside the SVG so a figure can be edited rather than redrawn.
+- Give figures an explicit background colour. A transparent PNG with dark text disappears in
+  GitHub's dark theme.
+- Every figure needs real alt text in the article: describe what it *shows*, not that it is a
+  diagram.
+- Crop to the relevant UI. Keep files under ~500 KB (`optipng -o2` is lossless and usually
+  saves ~30%).
 - **Redact** API keys, tokens, account emails and customer data before committing.
 
 ---
@@ -71,6 +91,8 @@ Keep `assets/README.md` and `build/README.md` in place — they document the loc
 ## Before you open a PR
 
 - [ ] Every `<placeholder>` filled in and guidance comments deleted
+- [ ] No Markdown tables in the article body (LinkedIn cannot render them)
+- [ ] Every figure has alt text, and the article references the PNG not the SVG
 - [ ] All relative links resolve (part links from the root README, asset links inside the article)
 - [ ] No secrets or customer data in `assets/` or `build/`
 - [ ] Root README series table updated

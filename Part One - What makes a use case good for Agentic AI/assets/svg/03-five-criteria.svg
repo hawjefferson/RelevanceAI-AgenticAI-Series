@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 822" width="1200" height="822" role="img" aria-labelledby="t d">
+<title id="t">The five criteria for a high-probability agentic use case</title><desc id="d">Five criteria in a table: high volume, a documented process, owners already in place, system and knowledge context, and measurable business impact. Each row gives the question to ask and the failure mode when the criterion is missing.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="822.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART ONE - FIGURE 3</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">The five criteria - all of them, not most of them</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">These are pass/fail gates, not a weighted average. A use case that misses one is not 80% ready; it has a specific hole you can go and fill.</text>
+<text x="132.0" y="216.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">CRITERION</text>
+<text x="400.0" y="216.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">THE QUESTION TO ASK</text>
+<text x="770.0" y="216.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">WHAT HAPPENS WHEN IT IS MISSING</text>
+<line x1="56.0" y1="228.0" x2="1144.0" y2="228.0" stroke="#c3c2b7" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="56.0" y="232.0" width="1088.0" height="92.0" rx="8" fill="#eef2ff"/>
+<circle cx="90" cy="272.0" r="19" fill="#5f56ff"/>
+<text x="90.0" y="277.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0">01</text>
+<text x="132.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">High volume</text>
+<text x="400.0" y="264.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">How many times a week does this happen, and</text>
+<text x="400.0" y="283.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">who counts it?</text>
+<text x="770.0" y="264.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Low volume means the payback never arrives. A perfect</text>
+<text x="770.0" y="283.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">agent run 40 times a year is a demo, not a business</text>
+<text x="770.0" y="302.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">case.</text>
+<line x1="56.0" y1="324.0" x2="1144.0" y2="324.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<circle cx="90" cy="364.0" r="19" fill="#5f56ff"/>
+<text x="90.0" y="369.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0">02</text>
+<text x="132.0" y="358.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">A documented process</text>
+<text x="400.0" y="356.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Can you show me the SOP, the checklist, or the</text>
+<text x="400.0" y="375.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">recording?</text>
+<text x="770.0" y="356.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">If the process only lives in someone's head, you are</text>
+<text x="770.0" y="375.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">not automating a process - you are inventing one, on a</text>
+<text x="770.0" y="394.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">deadline.</text>
+<line x1="56.0" y1="416.0" x2="1144.0" y2="416.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<rect x="56.0" y="416.0" width="1088.0" height="92.0" rx="8" fill="#eef2ff"/>
+<circle cx="90" cy="456.0" r="19" fill="#5f56ff"/>
+<text x="90.0" y="461.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0">03</text>
+<text x="132.0" y="450.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Owners already in place</text>
+<text x="400.0" y="448.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Who owns this in the business, and who owns</text>
+<text x="400.0" y="467.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">the systems it touches?</text>
+<text x="770.0" y="448.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">No business owner means no one to accept the output.</text>
+<text x="770.0" y="467.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">No technical owner means access requests stall for</text>
+<text x="770.0" y="486.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">weeks.</text>
+<line x1="56.0" y1="508.0" x2="1144.0" y2="508.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<circle cx="90" cy="548.0" r="19" fill="#5f56ff"/>
+<text x="90.0" y="553.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0">04</text>
+<text x="132.0" y="542.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">System and knowledge</text>
+<text x="132.0" y="563.8" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">context</text>
+<text x="400.0" y="540.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">What must the agent read to be right, and can</text>
+<text x="400.0" y="559.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">we reach it?</text>
+<text x="770.0" y="540.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">An agent with no grounding guesses confidently. That is</text>
+<text x="770.0" y="559.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">worse than no agent, because people believe it.</text>
+<line x1="56.0" y1="600.0" x2="1144.0" y2="600.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<rect x="56.0" y="600.0" width="1088.0" height="92.0" rx="8" fill="#eef2ff"/>
+<circle cx="90" cy="640.0" r="19" fill="#5f56ff"/>
+<text x="90.0" y="645.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0">05</text>
+<text x="132.0" y="634.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Measurable business impact</text>
+<text x="400.0" y="632.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">What number moves, by how much, and who</text>
+<text x="400.0" y="651.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">already reports it?</text>
+<text x="770.0" y="632.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">If impact cannot be measured with a metric that already</text>
+<text x="770.0" y="651.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">exists, renewal becomes an argument about vibes.</text>
+<rect x="56.0" y="726.0" width="1088.0" height="60.0" rx="10" fill="#dde4ff"/>
+<rect x="56.0" y="726.0" width="4.0" height="60.0" rx="2" fill="#4f45dc"/>
+<text x="76.0" y="752.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Five for five is the bar.</text>
+<text x="76.0" y="772.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Four out of five is not a green light - it is a named piece of work to do before the build starts.</text>
+</svg>
