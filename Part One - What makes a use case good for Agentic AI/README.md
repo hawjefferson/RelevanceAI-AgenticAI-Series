@@ -9,7 +9,6 @@
 ## The 90-second version
 
 - The expensive mistake in agentic AI is almost never the build. It's the pick.
-- Use case selection is **not** a presales handoff. Presales gives you a direction; the decision gets made after kickoff, with the champion and the executive buyer in the room.
 - Plot every candidate on **value vs effort** and deliberately choose the top-right: high value, low effort. Not because it's ambitious, but because it's the only quadrant that produces proof before your sponsorship expires.
 - A use case is high-probability when it clears **five gates**: high volume, a documented process, owners already in place, reachable system and knowledge context, and measurable business impact. All five. Not four.
 - Score it in a shared sheet so the quadrant is calculated, not argued. Then make the champion and the exec buyer re-confirm the ranking in front of each other.
@@ -247,14 +246,10 @@ Two more notes on the deck. **Tailor it before you send it, not during the call*
 
 - **`assets/`** — the six figures above, as PNG (used in this article, and sized for LinkedIn) plus the SVG sources.
 - **`build/use-case-scoring-sheet.xlsx`** — the scoring sheet: read me, blank template, ten worked examples, and the 1-to-5 scoring anchors.
-- **`linkedin.md`** — this article reformatted for the LinkedIn article editor, with image placement markers.
+
 
 ---
 
 ## Next up
 
 → [**Part Two — Building AI Agents within Relevance AI**](../Part%20Two%20-%20Building%20AI%20Agents%20within%20Relevance%20AI/): you've picked one. Now build it — tools, system prompt, knowledge, and reading the trace when it goes wrong.
-
----
-
-*Figures in this article are original diagrams. The weights, thresholds and worked examples in the scoring sheet are a documented starting point drawn from this article, not an empirical benchmark — replace them with what your own delivery history supports. The ten example use cases are illustrative and are not customer data.*
