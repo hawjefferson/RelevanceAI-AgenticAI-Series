@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1034" width="1200" height="1034" role="img" aria-labelledby="t d">
+<title id="t">Four runs of iteration on one agent</title><desc id="d">Run one: OCR empty, agent escalated. Run two: a 404 from a mistyped endpoint, agent reported the failure. Run three: 201 Created. Run four: a non-invoice email correctly ignored.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="1034.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART TWO - FIGURE 7</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">It took four runs, and two of them failed</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">The failures are the useful part. Each one shows a guardrail holding while something underneath was still wrong.</text>
+<text x="56.0" y="220.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">RUN</text>
+<text x="420.0" y="220.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHAT WENT WRONG, OR RIGHT</text>
+<text x="770.0" y="220.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHAT RICHARD DID</text>
+<line x1="56.0" y1="232.0" x2="1144.0" y2="232.0" stroke="#c3c2b7" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="56.0" y="240.0" width="1088.0" height="152.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="240.0" width="4.0" height="152.0" rx="2" fill="#d03b3b"/>
+<text x="80.0" y="272.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">RUN 1</text>
+<circle cx="92" cy="300.0" r="11" fill="none" stroke="#d03b3b" stroke-width="2"/>
+<path d="M 87.5 294.5 l 9 11 M 96.5 294.5 l -9 11" fill="none" stroke="#d03b3b" stroke-width="2.2" stroke-linecap="round"/>
+<text x="114.0" y="305.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">OCR came back empty</text>
+<text x="420.0" y="272.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">The OCR step returned nothing, and the invoice API</text>
+<text x="420.0" y="290.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">tool was not attached yet.</text>
+<text x="770.0" y="272.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Richard refused to submit, extracted what it could from</text>
+<text x="770.0" y="290.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">the email body, and asked for a human.</text>
+<line x1="80.0" y1="348.0" x2="1120.0" y2="348.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="372.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.2">LESSON</text>
+<text x="150.0" y="372.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">The guardrail worked before the happy path did. That is the right order.</text>
+<rect x="56.0" y="406.0" width="1088.0" height="152.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="406.0" width="4.0" height="152.0" rx="2" fill="#d03b3b"/>
+<text x="80.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">RUN 2</text>
+<circle cx="92" cy="466.0" r="11" fill="none" stroke="#d03b3b" stroke-width="2"/>
+<path d="M 87.5 460.5 l 9 11 M 96.5 460.5 l -9 11" fill="none" stroke="#d03b3b" stroke-width="2.2" stroke-linecap="round"/>
+<text x="114.0" y="471.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">POST returned 404</text>
+<text x="420.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">OCR read the PDF correctly. The POST went to</text>
+<text x="420.0" y="456.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">/api/invoice - the endpoint is /api/invoices.</text>
+<text x="770.0" y="438.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Richard reported the failure to Slack with the payload, and</text>
+<text x="770.0" y="456.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">did not claim the invoice was recorded.</text>
+<line x1="80.0" y1="514.0" x2="1120.0" y2="514.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="538.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.2">LESSON</text>
+<text x="150.0" y="538.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Do not make an agent remember a URL. Pin the endpoint inside the tool.</text>
+<rect x="56.0" y="572.0" width="1088.0" height="152.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="572.0" width="4.0" height="152.0" rx="2" fill="#0ca30c"/>
+<text x="80.0" y="604.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">RUN 3</text>
+<circle cx="92" cy="632.0" r="11" fill="none" stroke="#0ca30c" stroke-width="2"/>
+<path d="M 86 632 l 4.2 4.4 l 8-9" fill="none" stroke="#0ca30c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114.0" y="637.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">201 Created</text>
+<text x="420.0" y="604.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">OCR read pages 1-3, six fields validated, POST</text>
+<text x="420.0" y="622.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">accepted, invoice id returned.</text>
+<text x="770.0" y="604.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Slack posted the created invoice and its id.</text>
+<line x1="80.0" y1="680.0" x2="1120.0" y2="680.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="704.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.2">LESSON</text>
+<text x="150.0" y="704.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Nothing changed about the instructions. One wrong character was the whole gap.</text>
+<rect x="56.0" y="738.0" width="1088.0" height="152.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="738.0" width="4.0" height="152.0" rx="2" fill="#0ca30c"/>
+<text x="80.0" y="770.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.3">RUN 4</text>
+<circle cx="92" cy="798.0" r="11" fill="none" stroke="#0ca30c" stroke-width="2"/>
+<path d="M 86 798 l 4.2 4.4 l 8-9" fill="none" stroke="#0ca30c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114.0" y="803.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Correctly ignored</text>
+<text x="420.0" y="770.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">A Vanta "overdue security tasks" email arrived in the</text>
+<text x="420.0" y="788.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">same mailbox.</text>
+<text x="770.0" y="770.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Classified as not an invoice. No OCR, no API call, no Slack</text>
+<text x="770.0" y="788.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">noise.</text>
+<line x1="80.0" y1="846.0" x2="1120.0" y2="846.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="80.0" y="870.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.2">LESSON</text>
+<text x="150.0" y="870.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Test the negative case. An agent that never says no will submit rubbish.</text>
+<rect x="56.0" y="924.0" width="1088.0" height="56.0" rx="10" fill="#eef2ff"/>
+<rect x="56.0" y="924.0" width="4.0" height="56.0" rx="2" fill="#5f56ff"/>
+<text x="76.0" y="957.2" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Building the agent took one SOP. Getting it right took four runs and one character. Budget for the second part.</text>
+</svg>

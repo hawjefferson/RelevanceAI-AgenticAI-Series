@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1010" width="1200" height="1010" role="img" aria-labelledby="t d">
+<title id="t">What Richard the Invoice Manager is made of</title><desc id="d">The agent's trigger, its configuration, the three parts of its system prompt - guardrails, classification rules and a seven-step workflow - and the four tools it can call.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="1010.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART TWO - FIGURE 4</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">What "Richard the Invoice Manager" is made of</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Read from the live agent. A trigger that wakes it, an instruction set that constrains it, and four tools that let it touch the outside world.</text>
+<rect x="56.0" y="214.0" width="1088.0" height="74.0" rx="12" fill="#dde4ff"/>
+<rect x="56.0" y="214.0" width="4.0" height="74.0" rx="2" fill="#4f45dc"/>
+<text x="78.0" y="242.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.3">TRIGGER</text>
+<text x="78.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Outlook mailbox, polled automatically - attachments enabled</text>
+<rect x="760.0" y="238.0" width="108.1" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="770.0" y="253.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Runs unattended</text>
+<rect x="876.1" y="238.0" width="186.8" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="886.1" y="253.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">No human in the loop to start it</text>
+<line x1="600.0" y1="294.0" x2="600.0" y2="318.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="56.0" y="326.0" width="1088.0" height="452.0" rx="14" fill="#ffffff" stroke="#c3c2b7" stroke-width="1.5"/>
+<text x="80.0" y="362.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.3">THE AGENT</text>
+<text x="80.0" y="388.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Richard the Invoice Manager</text>
+<text x="80.0" y="412.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Monitors the invoice mailbox, identifies invoice emails, extracts invoice data, submits complete invoices to</text>
+<text x="80.0" y="431.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">the homegrown invoice application, and reports results for human visibility.</text>
+<text x="80.0" y="482.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">CONFIGURATION</text>
+<rect x="80.0" y="494.0" width="140.7" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="90.0" y="509.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">Model: cost-optimized</text>
+<rect x="227.7" y="494.0" width="95.0" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="237.7" y="509.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">Temperature 0</text>
+<rect x="329.7" y="494.0" width="115.2" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="339.7" y="509.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">Autonomy limit 50</text>
+<rect x="451.9" y="494.0" width="124.4" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="461.9" y="509.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">Approval mode: ask</text>
+<rect x="583.3" y="494.0" width="78.0" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="593.3" y="509.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">Memory off</text>
+<rect x="668.3" y="494.0" width="134.2" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="678.3" y="509.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">Extended thinking off</text>
+<rect x="80.0" y="546.0" width="333.3" height="176.0" rx="10" fill="#eef2ff"/>
+<rect x="80.0" y="546.0" width="3.0" height="176.0" rx="2" fill="#d03b3b"/>
+<text x="96.0" y="572.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#d03b3b" text-anchor="start" letter-spacing="1.2">GUARD RAILS</text>
+<text x="96.0" y="594.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Facts only, or stop</text>
+<text x="96.0" y="622.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Facts from the email, attachment or</text>
+<text x="96.0" y="644.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">tool results only</text>
+<text x="96.0" y="666.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Never invent invoice details</text>
+<text x="96.0" y="688.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Missing or ambiguous, stop and ask</text>
+<text x="96.0" y="710.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">No success claim without API proof</text>
+<rect x="437.3" y="546.0" width="333.3" height="176.0" rx="10" fill="#eef2ff"/>
+<rect x="437.3" y="546.0" width="3.0" height="176.0" rx="2" fill="#5f56ff"/>
+<text x="453.3" y="572.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.2">CLASSIFICATION RULES</text>
+<text x="453.3" y="594.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">What counts as an invoice</text>
+<text x="453.3" y="622.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">PDF: Sold-To, Bill-To, Order Details,</text>
+<text x="453.3" y="644.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Billing Summary, Invoice Date,</text>
+<text x="453.3" y="666.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Invoice Number, Due Date, Price</text>
+<text x="453.3" y="688.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Body only: Order#, Order Summary,</text>
+<text x="453.3" y="710.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Total Due, Due Date, Bill Number</text>
+<rect x="794.7" y="546.0" width="333.3" height="176.0" rx="10" fill="#eef2ff"/>
+<rect x="794.7" y="546.0" width="3.0" height="176.0" rx="2" fill="#4f45dc"/>
+<text x="810.7" y="572.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.2">WORKFLOW</text>
+<text x="810.7" y="594.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Seven ordered steps</text>
+<text x="810.7" y="622.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Classify, read the PDF, extract,</text>
+<text x="810.7" y="644.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">validate, escalate or submit,</text>
+<text x="810.7" y="666.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">notify, record</text>
+<text x="810.7" y="688.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">OCR is mandatory even when the</text>
+<text x="810.7" y="710.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">email already contains its text</text>
+<text x="80.0" y="756.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#898781" text-anchor="start" letter-spacing="0">System prompt: 49 lines, 3,637 characters</text>
+<line x1="600.0" y1="784.0" x2="600.0" y2="808.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="56.0" y="818.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.4">FOUR TOOLS</text>
+<line x1="56.0" y1="832.0" x2="1144.0" y2="832.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<rect x="56.0" y="852.0" width="254.0" height="128.0" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="72.0" y="878.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1">01</text>
+<text x="72.0" y="902.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Find email in the mailbox</text>
+<text x="72.0" y="940.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Microsoft Outlook</text>
+<rect x="72.0" y="950.0" width="46.7" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="82.0" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">OAuth</text>
+<rect x="124.7" y="950.0" width="50.3" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="134.7" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">1 step</text>
+<rect x="334.0" y="852.0" width="254.0" height="128.0" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="350.0" y="878.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1">02</text>
+<text x="350.0" y="902.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Read the PDF with OCR</text>
+<text x="350.0" y="940.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Mistral AI</text>
+<rect x="350.0" y="950.0" width="56.1" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="360.0" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">API key</text>
+<rect x="412.1" y="950.0" width="56.1" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="422.1" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">2 steps</text>
+<rect x="612.0" y="852.0" width="254.0" height="128.0" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="628.0" y="878.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1">03</text>
+<text x="628.0" y="902.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Create the invoice record</text>
+<text x="628.0" y="940.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Homegrown API</text>
+<rect x="628.0" y="950.0" width="69.8" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="638.0" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">REST POST</text>
+<rect x="703.8" y="950.0" width="50.3" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="713.8" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">1 step</text>
+<rect x="890.0" y="852.0" width="254.0" height="128.0" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="906.0" y="878.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1">04</text>
+<text x="906.0" y="902.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Post the notification</text>
+<text x="906.0" y="940.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="500" fill="#52514e" text-anchor="start" letter-spacing="0">Slack</text>
+<rect x="906.0" y="950.0" width="46.7" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="916.0" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">OAuth</text>
+<rect x="958.7" y="950.0" width="56.1" height="20.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="968.7" y="963.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">2 steps</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 938" width="1200" height="938" role="img" aria-labelledby="t d">
+<title id="t">Four levels of agentic autonomy</title><desc id="d">Level 1 AI assistant, Level 2 co-pilot, Level 3 agentic AI, Level 4 autonomous and self-improving - each with what it does, who drives, and example products. Relevance AI spans levels 2 to 4.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="938.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART TWO - FIGURE 2</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Four levels of autonomy, not one word</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">"AI platform" covers all four of these. What changes between levels is not model quality - it is who is holding the steering wheel.</text>
+<rect x="56.0" y="214.0" width="1088.0" height="118.0" rx="12" fill="#eef2ff"/>
+<rect x="56.0" y="214.0" width="4.0" height="118.0" rx="2" fill="#949eff"/>
+<text x="80.0" y="252.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#949eff" text-anchor="start" letter-spacing="1.4">LEVEL 1</text>
+<text x="80.0" y="280.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">AI assistant</text>
+<text x="340.0" y="248.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHAT IT DOES</text>
+<text x="340.0" y="268.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Answers when asked. Every step is a prompt.</text>
+<text x="704.0" y="248.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHO IS DRIVING</text>
+<text x="704.0" y="268.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">The human drives. Nothing happens between</text>
+<text x="704.0" y="287.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">questions.</text>
+<text x="1030.0" y="248.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">EXAMPLE</text>
+<rect x="1030.0" y="258.0" width="64.0" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1040.0" y="273.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">ChatGPT</text>
+<rect x="56.0" y="346.0" width="1088.0" height="118.0" rx="12" fill="#e5ebff"/>
+<rect x="56.0" y="346.0" width="4.0" height="118.0" rx="2" fill="#6e6fff"/>
+<text x="80.0" y="384.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#6e6fff" text-anchor="start" letter-spacing="1.4">LEVEL 2</text>
+<text x="80.0" y="412.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Co-pilot</text>
+<text x="340.0" y="380.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHAT IT DOES</text>
+<text x="340.0" y="400.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Works alongside you inside a task. Proposes and</text>
+<text x="340.0" y="419.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">executes under supervision.</text>
+<text x="704.0" y="380.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHO IS DRIVING</text>
+<text x="704.0" y="400.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">The human reviews each step and stays in the</text>
+<text x="704.0" y="419.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">loop throughout.</text>
+<text x="1030.0" y="380.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">EXAMPLE</text>
+<rect x="1030.0" y="390.0" width="88.1" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1040.0" y="405.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Claude Code</text>
+<rect x="1030.0" y="418.0" width="54.8" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1040.0" y="433.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Cursor</text>
+<rect x="56.0" y="478.0" width="1088.0" height="118.0" rx="12" fill="#dde4ff"/>
+<rect x="56.0" y="478.0" width="4.0" height="118.0" rx="2" fill="#4f45dc"/>
+<text x="80.0" y="516.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.4">LEVEL 3</text>
+<text x="80.0" y="544.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Agentic AI</text>
+<text x="340.0" y="512.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHAT IT DOES</text>
+<text x="340.0" y="532.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Owns a process end to end. Chooses its own tool</text>
+<text x="340.0" y="551.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">calls and runs unattended.</text>
+<text x="704.0" y="512.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHO IS DRIVING</text>
+<text x="704.0" y="532.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">The human sets the outcome and the guardrails,</text>
+<text x="704.0" y="551.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">then reads the result.</text>
+<text x="1030.0" y="512.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">EXAMPLE</text>
+<rect x="1030.0" y="522.0" width="92.2" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1040.0" y="537.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Relevance AI</text>
+<rect x="1030.0" y="550.0" width="74.4" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1040.0" y="565.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Wonderful</text>
+<rect x="56.0" y="610.0" width="1088.0" height="118.0" rx="12" fill="#ebedef"/>
+<rect x="56" y="610" width="1088" height="118" rx="12" fill="none" stroke="#777a82" stroke-width="1.5" stroke-dasharray="7 5"/>
+<rect x="56.0" y="610.0" width="4.0" height="118.0" rx="2" fill="#777a82"/>
+<text x="80.0" y="648.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#777a82" text-anchor="start" letter-spacing="1.4">LEVEL 4</text>
+<rect x="141.4" y="634.0" width="56.4" height="20.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="151.4" y="647.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#777a82" text-anchor="start" letter-spacing="0">NOT YET</text>
+<text x="80.0" y="676.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Autonomous and</text>
+<text x="80.0" y="698.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">self-improving</text>
+<text x="340.0" y="644.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHAT IT DOES</text>
+<text x="340.0" y="664.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Sets its own sub-goals, learns from its own runs,</text>
+<text x="340.0" y="683.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">improves without being re-prompted.</text>
+<text x="704.0" y="644.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">WHO IS DRIVING</text>
+<text x="704.0" y="664.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">The human sets intent. The system manages its</text>
+<text x="704.0" y="683.4" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">own performance.</text>
+<text x="1030.0" y="644.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">EXAMPLE</text>
+<rect x="1030.0" y="654.0" width="76.4" height="23.0" rx="11.5" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1040.0" y="669.6" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">The future</text>
+<rect x="56.0" y="766.0" width="1088.0" height="56.0" rx="10" fill="#dde4ff"/>
+<rect x="56.0" y="766.0" width="4.0" height="56.0" rx="2" fill="#4f45dc"/>
+<text x="76.0" y="790.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Relevance AI spans Level 2 to Level 4.</text>
+<text x="76.0" y="810.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Level 3 is where a process stops needing a human at every step.</text>
+<rect x="56.0" y="838.0" width="1088.0" height="73.5" rx="10" fill="#eef2ff"/>
+<rect x="56.0" y="838.0" width="4.0" height="73.5" rx="2" fill="#5f56ff"/>
+<text x="76.0" y="869.1" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">Most organisations run a portfolio: Level 1 and 2 from OpenAI or Anthropic, Level 3 and 4 on an agentic platform. Same reason engineering teams run</text>
+<text x="76.0" y="890.8" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#0c162f" text-anchor="start" letter-spacing="0">both Claude Code and Cursor.</text>
+</svg>

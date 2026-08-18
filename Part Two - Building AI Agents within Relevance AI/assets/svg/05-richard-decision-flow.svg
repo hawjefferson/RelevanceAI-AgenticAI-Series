@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1246" width="1200" height="1246" role="img" aria-labelledby="t d">
+<title id="t">Richard's decision flow, from the SOP</title><desc id="d">A flowchart: an email arrives, is classified as an invoice or not, the PDF is read with OCR, six fields are extracted and validated, and the invoice is either escalated for human review or posted to the API and reported to Slack.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="1246.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART TWO - FIGURE 5</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">The SOP, as the agent actually runs it</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Two of these branches stop the process. That is the point - a good agent has more ways to stop than it has ways to act.</text>
+<rect x="232.0" y="214.0" width="396.0" height="62.0" rx="10" fill="#eef2ff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="232.0" y="214.0" width="4.0" height="62.0" rx="2" fill="#5f56ff"/>
+<text x="430.0" y="251.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Email arrives in the mailbox</text>
+<line x1="430.0" y1="280.0" x2="430.0" y2="306.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 430 306.0 L 600.0 352 L 430 398.0 L 260.0 352 Z" fill="#dde4ff" stroke="#4f45dc" stroke-width="1.5"/>
+<text x="430.0" y="357.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Invoice indicators present?</text>
+<line x1="602.0" y1="352.0" x2="746.0" y2="352.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="674.0" y="342.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="middle" letter-spacing="0">no</text>
+<rect x="750.0" y="318.0" width="300.0" height="68.0" rx="10" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="750.0" y="318.0" width="4.0" height="68.0" rx="2" fill="#777a82"/>
+<text x="900.0" y="348.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Stop. No invoice detected.</text>
+<text x="900.0" y="368.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">Say so and take no external action.</text>
+<line x1="430.0" y1="402.0" x2="430.0" y2="428.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="440.0" y="419.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="start" letter-spacing="0">yes</text>
+<path d="M 430 428.0 L 600.0 474 L 430 520.0 L 260.0 474 Z" fill="#dde4ff" stroke="#4f45dc" stroke-width="1.5"/>
+<text x="430.0" y="479.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">PDF attachment?</text>
+<line x1="602.0" y1="474.0" x2="746.0" y2="474.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="674.0" y="464.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="middle" letter-spacing="0">no</text>
+<rect x="750.0" y="440.0" width="300.0" height="68.0" rx="10" fill="#eef2ff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="750.0" y="440.0" width="4.0" height="68.0" rx="2" fill="#5f56ff"/>
+<text x="900.0" y="470.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Extract from the email body</text>
+<text x="900.0" y="490.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">Supplier, number, due date, description,</text>
+<text x="900.0" y="508.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">amount.</text>
+<line x1="430.0" y1="524.0" x2="430.0" y2="550.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="440.0" y="541.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="start" letter-spacing="0">yes</text>
+<rect x="232.0" y="550.0" width="396.0" height="76.0" rx="10" fill="#eef2ff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="232.0" y="550.0" width="4.0" height="76.0" rx="2" fill="#5f56ff"/>
+<text x="430.0" y="580.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Read the PDF with Mistral OCR</text>
+<text x="430.0" y="600.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">Mandatory - even if the email already contains OCR text.</text>
+<line x1="900" y1="516" x2="900" y2="662" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round"/>
+<line x1="430.0" y1="630.0" x2="430.0" y2="654.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="232.0" y="654.0" width="396.0" height="76.0" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="232.0" y="654.0" width="4.0" height="76.0" rx="2" fill="#5f56ff"/>
+<text x="430.0" y="684.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Extract, then validate six fields</text>
+<text x="430.0" y="704.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">invoiceNumber, invoiceDate, description, merchant, owner,</text>
+<text x="430.0" y="722.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">amount</text>
+<path d="M 900 662 L 900 692 L 632.0 692" fill="none" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="430.0" y1="734.0" x2="430.0" y2="760.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 430 760.0 L 620.0 810 L 430 860.0 L 240.0 810 Z" fill="#dde4ff" stroke="#4f45dc" stroke-width="1.5"/>
+<text x="430.0" y="815.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">All six present and valid?</text>
+<line x1="622.0" y1="810.0" x2="746.0" y2="810.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="684.0" y="800.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="middle" letter-spacing="0">no</text>
+<rect x="750.0" y="768.0" width="300.0" height="84.0" rx="10" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="750.0" y="768.0" width="4.0" height="84.0" rx="2" fill="#d03b3b"/>
+<text x="900.0" y="798.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Escalate for human review</text>
+<text x="900.0" y="818.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">Name what is missing and why it stopped.</text>
+<text x="900.0" y="836.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">Do not call the API.</text>
+<line x1="430.0" y1="864.0" x2="430.0" y2="890.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="440.0" y="881.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="start" letter-spacing="0">yes</text>
+<rect x="232.0" y="890.0" width="396.0" height="62.0" rx="10" fill="#dde4ff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="232.0" y="890.0" width="4.0" height="62.0" rx="2" fill="#4f45dc"/>
+<text x="430.0" y="927.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">POST to the invoice API</text>
+<line x1="430.0" y1="956.0" x2="430.0" y2="982.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 430 982.0 L 600.0 1028 L 430 1074.0 L 260.0 1028 Z" fill="#dde4ff" stroke="#4f45dc" stroke-width="1.5"/>
+<text x="430.0" y="1033.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">API confirms success?</text>
+<line x1="602.0" y1="1028.0" x2="746.0" y2="1028.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="674.0" y="1018.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="middle" letter-spacing="0">no</text>
+<rect x="750.0" y="994.0" width="300.0" height="68.0" rx="10" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="750.0" y="994.0" width="4.0" height="68.0" rx="2" fill="#d03b3b"/>
+<text x="900.0" y="1024.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Slack the error</text>
+<text x="900.0" y="1044.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">Never claim success without confirmation.</text>
+<line x1="430.0" y1="1078.0" x2="430.0" y2="1104.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="440.0" y="1095.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#52514e" text-anchor="start" letter-spacing="0">yes</text>
+<rect x="232.0" y="1104.0" width="396.0" height="76.0" rx="10" fill="#dde4ff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="232.0" y="1104.0" width="4.0" height="76.0" rx="2" fill="#4f45dc"/>
+<text x="430.0" y="1134.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0c162f" text-anchor="middle" letter-spacing="0">Slack the invoice ID, then record the run</text>
+<text x="430.0" y="1154.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">What was extracted, whether it submitted, what Slack</text>
+<text x="430.0" y="1172.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#52514e" text-anchor="middle" letter-spacing="0">returned.</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t d">
+<title id="t">Connect the systems before you build the agent</title><desc id="d">The four systems this use case needs - Outlook as source, Mistral for OCR, a homegrown invoice application as system of record, and Slack for visibility - with the connector type each uses and who owns each step.</desc>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#c3c2b7"/>
+  </marker>
+  <marker id="ahA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1 L 9 5 L 0 9 z" fill="#5f56ff"/>
+  </marker>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5f56ff"/><stop offset="1" stop-color="#9646e5"/>
+  </linearGradient>
+</defs>
+<rect x="0.0" y="0.0" width="1200.0" height="800.0" rx="0" fill="#fcfcfb"/>
+
+<text x="56.0" y="64.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.4">PART TWO - FIGURE 3</text>
+<text x="56.0" y="98.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Context first. Agents second.</text>
+<text x="56.0" y="130.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">An agent with no reach is a chatbot. Before building anything, name the systems the use case touches and connect them.</text>
+<rect x="56.0" y="230.0" width="254.0" height="312.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="56.0" y="230.0" width="254.0" height="4.0" rx="2" fill="#4f45dc"/>
+<text x="76.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.3">SOURCE</text>
+<text x="76.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Email mailbox</text>
+<text x="76.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#898781" text-anchor="start" letter-spacing="0">Microsoft Outlook</text>
+<line x1="76.0" y1="338.0" x2="290.0" y2="338.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="76.0" y="362.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Where invoices arrive. Polled</text>
+<text x="76.0" y="380.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">automatically; attachments</text>
+<text x="76.0" y="399.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">enabled.</text>
+<text x="76.0" y="466.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">HOW IT CONNECTS</text>
+<rect x="76.0" y="478.0" width="123.9" height="23.0" rx="11.5" fill="#dde4ff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="86.0" y="493.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Pre-built connector</text>
+<rect x="76.0" y="510.0" width="49.4" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="86.0" y="525.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">OAuth</text>
+<line x1="313.0" y1="386.0" x2="331.0" y2="386.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="334.0" y="230.0" width="254.0" height="312.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="334.0" y="230.0" width="254.0" height="4.0" rx="2" fill="#4f45dc"/>
+<text x="354.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.3">READING</text>
+<text x="354.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Document OCR</text>
+<text x="354.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#898781" text-anchor="start" letter-spacing="0">Mistral AI</text>
+<line x1="354.0" y1="338.0" x2="568.0" y2="338.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="354.0" y="362.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Reads the PDF so fields come from</text>
+<text x="354.0" y="380.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">the source document, not a guess.</text>
+<text x="354.0" y="466.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">HOW IT CONNECTS</text>
+<rect x="354.0" y="478.0" width="123.9" height="23.0" rx="11.5" fill="#dde4ff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="364.0" y="493.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Pre-built connector</text>
+<rect x="354.0" y="510.0" width="59.7" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="364.0" y="525.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">API key</text>
+<line x1="591.0" y1="386.0" x2="609.0" y2="386.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="612.0" y="230.0" width="254.0" height="312.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="612.0" y="230.0" width="254.0" height="4.0" rx="2" fill="#6e6fff"/>
+<text x="632.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#6e6fff" text-anchor="start" letter-spacing="1.3">SYSTEM OF RECORD</text>
+<text x="632.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Invoice application</text>
+<text x="632.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#898781" text-anchor="start" letter-spacing="0">Homegrown</text>
+<line x1="632.0" y1="338.0" x2="846.0" y2="338.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="632.0" y="362.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Where the invoice entry is lodged.</text>
+<text x="632.0" y="380.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">No connector exists - none is</text>
+<text x="632.0" y="399.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">needed.</text>
+<text x="632.0" y="466.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">HOW IT CONNECTS</text>
+<rect x="632.0" y="478.0" width="113.6" height="23.0" rx="11.5" fill="#e5ebff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="642.0" y="493.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">One-step API tool</text>
+<rect x="632.0" y="510.0" width="74.8" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="642.0" y="525.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">REST POST</text>
+<line x1="869.0" y1="386.0" x2="887.0" y2="386.0" stroke="#c3c2b7" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="890.0" y="230.0" width="254.0" height="312.0" rx="12" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="890.0" y="230.0" width="254.0" height="4.0" rx="2" fill="#4f45dc"/>
+<text x="910.0" y="266.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.3">VISIBILITY</text>
+<text x="910.0" y="294.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Notifications</text>
+<text x="910.0" y="320.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#898781" text-anchor="start" letter-spacing="0">Slack</text>
+<line x1="910.0" y1="338.0" x2="1124.0" y2="338.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<text x="910.0" y="362.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Every run reports out, success or</text>
+<text x="910.0" y="380.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">failure, to a channel humans</text>
+<text x="910.0" y="399.7" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">watch.</text>
+<text x="910.0" y="466.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.2">HOW IT CONNECTS</text>
+<rect x="910.0" y="478.0" width="123.9" height="23.0" rx="11.5" fill="#dde4ff" stroke="#e1e0d9" stroke-width="1"/>
+<text x="920.0" y="493.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0c162f" text-anchor="start" letter-spacing="0">Pre-built connector</text>
+<rect x="910.0" y="510.0" width="49.4" height="23.0" rx="11.5" fill="#ebedef" stroke="#e1e0d9" stroke-width="1"/>
+<text x="920.0" y="525.5" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#52514e" text-anchor="start" letter-spacing="0">OAuth</text>
+<text x="56.0" y="588.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#898781" text-anchor="start" letter-spacing="1.4">WHO DOES WHAT</text>
+<line x1="56.0" y1="602.0" x2="1144.0" y2="602.0" stroke="#e1e0d9" stroke-width="1" stroke-linecap="round"/>
+<rect x="56.0" y="622.0" width="532.0" height="118.0" rx="12" fill="#dde4ff"/>
+<rect x="56.0" y="622.0" width="4.0" height="118.0" rx="2" fill="#4f45dc"/>
+<text x="76.0" y="652.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#4f45dc" text-anchor="start" letter-spacing="1.3">IT</text>
+<text x="76.0" y="678.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Authorise the connection. Once.</text>
+<text x="76.0" y="700.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Approve the OAuth grant, hold the API key, confirm the endpoint is reachable. IT</text>
+<text x="76.0" y="718.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">is the facilitator here, not the builder.</text>
+<rect x="612.0" y="622.0" width="532.0" height="118.0" rx="12" fill="#eef2ff"/>
+<rect x="612.0" y="622.0" width="4.0" height="118.0" rx="2" fill="#5f56ff"/>
+<text x="632.0" y="652.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#5f56ff" text-anchor="start" letter-spacing="1.3">THE SUBJECT MATTER EXPERT</text>
+<text x="632.0" y="678.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#0c162f" text-anchor="start" letter-spacing="0">Everything after that.</text>
+<text x="632.0" y="700.0" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">Writes the SOP, builds the agent, tests it, iterates it. The person who understands</text>
+<text x="632.0" y="718.9" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#52514e" text-anchor="start" letter-spacing="0">invoices is the person who should own the invoice agent.</text>
+</svg>
